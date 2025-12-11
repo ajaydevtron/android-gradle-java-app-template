@@ -10,7 +10,7 @@ export ANDROID_HOME=/opt/android-sdk
 export ANDROID_SDK_ROOT=/opt/android-sdk
 export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:$PATH
 pwd
-cd /devtroncd/android-gradle-java-app-template/
+cd /devtroncd
 yes | sdkmanager --licenses
 sdkmanager "platform-tools" "platforms;android-33"
 ./gradlew assembleRelease
