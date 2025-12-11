@@ -12,6 +12,6 @@ export PATH=$ANDROID_HOME/cmdline-tools/latest/bin:$ANDROID_HOME/platform-tools:
 pwd
 cd /devtroncd/android-gradle-java-app-template/
 yes | sdkmanager --licenses
-sdkmanager “platform-tools” “platforms;android-33"
+sdkmanager "platform-tools" "platforms;android-33"
 ./gradlew assembleRelease
 ls ./build/outputs/apk/release/
